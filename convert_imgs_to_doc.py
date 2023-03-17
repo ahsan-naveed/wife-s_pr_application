@@ -16,6 +16,6 @@ for i, f in enumerate(compressed_files):
         img_path = os.path.join(rdir, cpics, f)
         doc = docx.Document()
         doc.add_picture(img_path, width=Inches(6), height=Inches(4))
-        doc.add_paragraph(text='Name: Nimra Ahsan\nDOB: 1998-02-24\nContext: Nikah Ceremony\nLeft-Right:')
+        doc.add_paragraph(text='Name: FirstName LastName\nDOB: 1998-02-24\nContext: Nikah Ceremony\nLeft-Right:')
         doc.save(os.path.join(rdir, apics, f'Ahsan-Nimra-Nikah-{i + 1}.docx'))
 
