@@ -5,7 +5,7 @@ import os
 
 from docx.shared import Inches
 
-rdir = '/Users/ahsannaveed/Desktop/Nimra PR Application/Nikah'
+rdir = '/Users/ahsannaveed/Desktop'
 cpics = 'Compressed Pics'
 apics = 'Annotated Pics'
 compressed_files = os.listdir(os.path.join(rdir, cpics))
